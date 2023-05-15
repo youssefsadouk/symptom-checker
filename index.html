@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Symptom Checker</title>
+</head>
+<body>
+  <div class="input">
+  <h1>Symptom Checker</h1>
+  <label for="gender">Gender:</label>
+  <select id="gender">
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+  </select>
+  <br>
+  <label for="age">Age:</label>
+  <input type="number" id="age">
+  <br>
+  <label for="symptoms">Symptoms:</label>
+  <ul id="symptoms-list">
+	<li><input type="checkbox" name="symptom" value="s_21">Abdominal pain</li>
+	<li><input type="checkbox" name="symptom" value="s_10">Anxiety</li>
+	<li><input type="checkbox" name="symptom" value="s_1193">Back pain</li>
+	<li><input type="checkbox" name="symptom" value="s_98">Chest pain</li>
+	<li><input type="checkbox" name="symptom" value="s_188">Cough</li>
+	<li><input type="checkbox" name="symptom" value="s_109">Diarrhea</li>
+	<li><input type="checkbox" name="symptom" value="s_104">Dizziness</li>
+	<li><input type="checkbox" name="symptom" value="s_16">Fatigue</li>
+	<li><input type="checkbox" name="symptom" value="s_140">Fever</li>
+	<li><input type="checkbox" name="symptom" value="s_23">Headache</li>
+	<li><input type="checkbox" name="symptom" value="s_156">Nausea</li>
+	<li><input type="checkbox" name="symptom" value="s_26">Sore throat</li>
+	<li><input type="checkbox" name="symptom" value="s_25">Vomiting</li>
+	<li><input type="checkbox" name="symptom" value="s_45">Joint pain</li>
+	<li><input type="checkbox" name="symptom" value="s_31">Shortness of breath</li>
+	<li><input type="checkbox" name="symptom" value="s_62">Rash</li>
+	<li><input type="checkbox" name="symptom" value="s_17">Chest tightness</li>
+	<li><input type="checkbox" name="symptom" value="s_37">Frequent urination</li>
+	<li><input type="checkbox" name="symptom" value="s_56">Nasal congestion</li>
+	<li><input type="checkbox" name="symptom" value="s_8">Backache</li>
+	<li><input type="checkbox" name="symptom" value="s_52">Loss of appetite</li>
+	<li><input type="checkbox" name="symptom" value="s_73">Swollen lymph nodes</li>
+	<li><input type="checkbox" name="symptom" value="s_42">Coughing up blood</li>
+	<li><input type="checkbox" name="symptom" value="s_57">Nausea and vomiting</li>
+	<li><input type="checkbox" name="symptom" value="s_81">Shortness of breath with exertion</li>
+	<li><input type="checkbox" name="symptom" value="s_95">Chest pressure</li>
+	<li><input type="checkbox" name="symptom" value="s_102">Dry cough</li>
+	<li><input type="checkbox" name="symptom" value="s_113">Fainting</li>
+	<li><input type="checkbox" name="symptom" value="s_126">Loss of consciousness</li>
+	<li><input type="checkbox" name="symptom" value="s_137">Difficulty swallowing</li>
+	<li><input type="checkbox" name="symptom" value="s_165">Sneezing</li>
+	<li><input type="checkbox" name="symptom" value="s_172">Numbness or tingling</li>
+	<li><input type="checkbox" name="symptom" value="s_195">Blurred vision</li>
+	<li><input type="checkbox" name="symptom" value="s_208">Abnormal bleeding</li>
+	<li><input type="checkbox" name="symptom" value="s_216">Chest discomfort</li>
+	<li><input type="checkbox" name="symptom" value="s_221">Swollen joints</li>
+	<li><input type="checkbox" name="symptom" value="s_239">Memory loss</li>
+	<li><input type="checkbox" name="symptom" value="s_251">Night sweats</li>
+	<li><input type="checkbox" name="symptom" value="s_264">Stiff neck</li>
+	<li><input type="checkbox" name="symptom" value="s_281">Abnormal heartbeat</li>
+	<li><input type="checkbox" name="symptom" value="s_298">Weight gain</li>
+	<li><input type="checkbox" name="symptom" value="s_307">Hair loss</li>
+	<li><input type="checkbox" name="symptom" value="s_315">Muscle weakness</li>
+	<li><input type="checkbox" name="symptom" value="s_329">Sweating</li>
+	<li><input type="checkbox" name="symptom" value="s_337">Swollen feet or ankles</li>
+	<li><input type="checkbox" name="symptom" value="s_343">Bloating</li>
+	<li><input type="checkbox" name="symptom" value="s_359">Rapid heartbeat</li>
+	<li><input type="checkbox" name="symptom" value="s_42">Coughing up blood</li>
+	<li><input type="checkbox" name="symptom" value="s_57">Nausea and vomiting</li>
+	<li><input type="checkbox" name="symptom" value="s_81">Shortness of breath with exertion</li>
+	<li><input type="checkbox" name="symptom" value="s_95">Chest pressure</li>
+	<li><input type="checkbox" name="symptom" value="s_102">Dry cough</li>
+	<li><input type="checkbox" name="symptom" value="s_113">Fainting</li>
+	<li><input type="checkbox" name="symptom" value="s_126">Loss of consciousness</li>
+	<li><input type="checkbox" name="symptom" value="s_137">Difficulty swallowing</li>
+	<li><input type="checkbox" name="symptom" value="s_165">Sneezing</li>
+	<li><input type="checkbox" name="symptom" value="s_172">Numbness or tingling</li>
+	<li><input type="checkbox" name="symptom" value="s_195">Blurred vision</li>
+	<li><input type="checkbox" name="symptom" value="s_208">Abnormal bleeding</li>
+	<li><input type="checkbox" name="symptom" value="s_216">Chest discomfort</li>
+	<li><input type="checkbox" name="symptom" value="s_221">Swollen joints</li>
+	<li><input type="checkbox" name="symptom" value="s_239">Memory loss</li>
+	<li><input type="checkbox" name="symptom" value="s_251">Night sweats</li>
+	<li><input type="checkbox" name="symptom" value="s_264">Stiff neck</li>
+	<li><input type="checkbox" name="symptom" value="s_281">Abnormal heartbeat</li>
+	<li><input type="checkbox" name="symptom" value="s_298">Weight gain</li>
+</ul>
+
+
+  </ul>
+  <br>
+  <button onclick="submitSymptoms()">Submit</button>
+  <br>
+</div>
+  <div id="diagnosis"></div>
+  <script src="script.js"></script>
+</body>
+</html>
+
